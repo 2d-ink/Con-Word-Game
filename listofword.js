@@ -1,0 +1,1 @@
+module.exports=["hello", "holloween", "christmas", "happy", "javascript", "coding"]
