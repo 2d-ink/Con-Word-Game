@@ -8,7 +8,7 @@
 
 //   * A function that takes a character as an argument and calls the guess function on each letter object (the second function defined in `Letter.js`)
 
-var letter = require('./Letter');
+var Letter = require('./Letter');
 
 console.log(); 
 
@@ -20,7 +20,7 @@ function Word(word){
 
     this.genUnderScored=function(){
         for(let i=0; i<this.word.length; i++){
-            var letter = new letter(word[i])
+            var letter = new Letter(word[i])
             this.nLet.push(letter)
             this.underScores.push(letter.shower())
         }

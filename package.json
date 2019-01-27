@@ -1,0 +1,24 @@
+{
+  "name": "ConstructorWordGuess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2d-ink/Con-Word-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2d-ink/Con-Word-Game/issues"
+  },
+  "homepage": "https://github.com/2d-ink/Con-Word-Game#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "requirer": "0.0.4"
+  }
+}
